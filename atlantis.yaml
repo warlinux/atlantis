@@ -1,13 +1,13 @@
-#---
-#workflows:
-#  default:
-#    plan:
-#      steps:
-#      - run: echo "Custom Workflow"
-#      - init
-#      - plan
-#      - run: echo "Run checkov"
-#    apply:
-#      steps:
-#      - apply
-#      - run: echo "Send webhook slack for example"
+---
+workflows:
+  default:
+    plan:
+      steps:
+      - run: echo "Custom Workflow"
+      - init
+      - plan
+      - run: echo "Run checkov"
+    apply:
+      steps:
+      - apply
+      - run: echo "Send webhook slack for example"
