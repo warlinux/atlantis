@@ -22,7 +22,7 @@ workflows:
       - plan
 #      - plan:
 #          extra_args: ["-lock", "false"]
-      - run: my-custom-command arg1 arg2
+#      - run: my-custom-command arg1 arg2
     apply:
       steps:
       - run: echo "Send webook to slack for example"
