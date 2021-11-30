@@ -8,13 +8,13 @@ projects:
 #  autoplan:
 #    when_modified: ["*.tf", "../modules/**.tf"]
 #    enabled: true
-  apply_requirements: [mergeable, approved]
+#  apply_requirements: [mergeable, approved]
   workflow: default
 workflows:
   default:
     plan:
       steps:
-      - run: echo "Run Checkov"
+      - run: checkov --quiet -d .
       - init
       - plan
 #      - plan:
