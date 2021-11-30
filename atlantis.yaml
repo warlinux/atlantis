@@ -14,7 +14,7 @@ workflows:
   default:
     plan:
       steps:
-      - run: checkov --quiet -d .
+      - run: checkov --quiet --compact -s -d .
       - init
       - plan
 #      - plan:
