@@ -1,6 +1,6 @@
 ---
 workflows:
-  myworkflow:
+  default:
     plan:
       steps:
       - run: echo "Custom Workflow"
