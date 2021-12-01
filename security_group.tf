@@ -19,6 +19,6 @@ resource "aws_security_group" "App-Security-Group" {
   }
 
   tags = {
-    Name = "App Security Group"
+    Name = "App Security Group Test"
   }
 }
