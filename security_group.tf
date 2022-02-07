@@ -15,7 +15,7 @@ resource "aws_security_group" "App-Security-Group" {
     protocol  = "-1"
     to_port   = 0
     cidr_blocks = ["10.0.0.0/8"]
-    description = "Teste"
+    description = "Teste123"
   }
 
   tags = {
