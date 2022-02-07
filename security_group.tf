@@ -8,7 +8,7 @@ resource "aws_security_group" "App-Security-Group" {
     protocol  = "-1"
     to_port   = 0
     cidr_blocks = ["0.0.0.0/0"]
-    description = "Teste"
+    description = "Teste123"
   }
   egress {
     from_port = 0
